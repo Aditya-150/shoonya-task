@@ -1,12 +1,21 @@
 
 import './App.css'
+import Footer from './components/Footer';
+import GetList from './components/GetList';
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="min-h-screen relative">
+      <Header />
+      <main className="flex-grow">
+        <Hero />
+        <GetList />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

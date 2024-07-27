@@ -1,8 +1,25 @@
-# React + Vite
+# SHOONYA TASK SUBMISSION
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Create a responsive web page for a fictional wellness retreat webpage. The page should display a list of available retreats, allowing users to filter them by date and type.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- [ReactJs](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+## How to Contribute
+
+### Install dependencies
+
+```bash
+yarn
+```
+
+### Run the development server
+
+```bash
+yarn run dev
+```
